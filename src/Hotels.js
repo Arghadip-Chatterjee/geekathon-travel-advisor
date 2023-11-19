@@ -122,6 +122,7 @@ const MyComponent = () => {
         <br />
         <label>
           Departure Date:
+          <br/>
           <DatePicker
             selected={arrivalDate}
             onChange={handleArrivalDateChange}
